@@ -37,6 +37,7 @@ En este script veremos el los principios del consumo de apis mediante un script 
 Como podemos ver postman nos permite ver ciertos pokemon reflejados en un json, te dejo el url del api para que lo pruebes por ti mismo : https://pokeapi.co/api/v2/pokemon-form/
 
 <br>
+
 ### Scripting en PowerShel
 
 ---
