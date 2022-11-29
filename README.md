@@ -28,6 +28,7 @@ En este github vamos a ver diferentes ejercicios realizados durante el semestre 
 
 
 ### Manejo de apis
+
 ---
 En este script veremos el los principios del consumo de apis mediante un script en python, para el ejemplo usamos la api publica de pokemon y para hacegurarnos que el consumo se esta haciendo de manera correcta utilizamos [Postman](https://www.postman.com/downloads/ "Postman") para verificar lo que trae la api
 
@@ -37,6 +38,7 @@ Como podemos ver postman nos permite ver ciertos pokemon reflejados en un json, 
 
 <br>
 ### Scripting en PowerShel
+
 ---
 Este script se utiliza para validar hosts activos en nuestra subred mediante diferentes comandos de [powershell](https://learn.microsoft.com/es-es/powershell/scripting/overview?view=powershell-7.3 "powershell") .
 
@@ -54,6 +56,7 @@ foreach( $r in $rango_ip){
 ```
 <br>
 ### Scripting en Bash
+
 ---
 Aqui tendremos que concentrarnos en el script `portscanv1.sh` ya que este actuara como menú para utilizar los demas ejecutables de la carpeta, cabe aclarar que para poder ejecutar los scripts necesitaremos una terminal de linux para poder probarlo, te recomiendo utilizar una maquina virtual en mi caso utilice Virtual-Box[[link de descarga](https://download.virtualbox.org/virtualbox/7.0.4/VirtualBox-7.0.4-154605-Win.exe  "link de descarga")] pero tu puedes usar el que prefieras
 
@@ -66,6 +69,7 @@ Si seguiste los pasos al correrlo se vera algo parecido a lo de la imagen: <br>
 [![superscan.png](https://i.postimg.cc/dty2XxLH/superscan.png)](https://postimg.cc/4mXHHwvV)
 <br>
 ### Encoding & Decoding
+
 ---
 En este script  de `encode_imageur.py`  podemos ver una manera de ecnriptar ya sea texto o incluso podríamos encriptar una imagen, para poder cambiar la imagen dentro del codigo hay que prestar atencion a este bloque de codigo, en la linea de url  y cambiar la url de la imagen
 
@@ -82,6 +86,7 @@ if __name__ == '__main__':
 Para desencriptar la imagen podemos usar `decoding_uanl.py` ingresas la url que te arroja en el programa anterior y te la regresara desencriptada,en caso que quieras saber una frase encriptada en base 64  puedes utilizar `encode_text.py`  que te pide una frase y te la regresara en base64
 <br>
 ### Webscraping
+
 ---
 Si lo que buscas es hacer webscapping  aqui esta tu opcion ya que se cuentan con mas de 9 ejemplos de webscaping solo tendras que poner la url a la que quieres realizar este 'ataque', las posibilidades son infinitas pero en este ejemplo nos limitamos a mostrar texto de la pagina web como se puede ver en el ejemplo donde se le hizo webscrapping al sitio [https://realpython.github.io/fake-jobs/](https://realpython.github.io/fake-jobs/ "https://realpython.github.io/fake-jobs/")
 <center>
@@ -89,6 +94,7 @@ Si lo que buscas es hacer webscapping  aqui esta tu opcion ya que se cuentan con
 </center>
 <br>
 ### Nmap
+
 ---
 Para este script necesitamos tener una terminal de linux, como vimos anteriormente podemos utilizar [Virtual-Box](https://download.virtualbox.org/virtualbox/7.0.4/VirtualBox-7.0.4-154605-Win.exe  "Virtual-Box") pero lo dejo a tu preferencia ya en la terminal tendras que importar el `automap.sh` en ese codigo veras un menú en el cual vendras diferentes tipos de escanneo con nmap 
 
@@ -98,6 +104,7 @@ Despues de seleccionar una opción se guardara en un archivo
 `resultados(opcion seleccionada).txt`  una vez que termine la ejecucion tendremos que ver el contenido del archivo donde guarda los resultados dependiendo de la opción como se puede ver en el ejemplo.
 <br>
 ### FTP
+
 ---
 Para utilizar este apartado primero deberas tener un servidor ftp activo (en mi caso yo tenia uno con linux) y saber la ip donde tienes el servidor ftp activo
 
@@ -126,6 +133,7 @@ Para el escaneo de puertos tambien se utilizara una terminal linux ya que el arc
 [![superscan.png](https://i.postimg.cc/bvVCmvhP/superscan.png)](https://postimg.cc/p98JTRrc)
 
 ### Envió de Correos
+
 ---
 Para usar este script se necesitan 2 cosas :
 - [Cuenta en Gmail](https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp "Cuenta en Gmail")
