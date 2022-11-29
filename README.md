@@ -117,7 +117,9 @@ with open('ADVERTENCIA.txt', "rb") as file: #Archivo a s
 ftp.quit() #Cierre de sesion 
 ```
 <br>
+
 ### Escáner de Puertos
+
 ---
 Para el escaneo de puertos tambien se utilizara una terminal linux ya que el archivo es .sh en esta parte se hacen diferentes tipos de escaneos y tambien te puede decir los usuarios conectados, a diferencia de el apartado de NMAP este te lo muestra directo, ejecutas una opcion y te muestra el resultado de inmediato, aqui podemos ver un ejemplo de su ejecucion 
 
