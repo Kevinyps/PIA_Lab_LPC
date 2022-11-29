@@ -55,6 +55,7 @@ foreach( $r in $rango_ip){
 }
 ```
 <br>
+
 ### Scripting en Bash
 
 ---
@@ -68,6 +69,7 @@ Una vez hecho esto solo queda correr el ejecutable, puedes hacerlo de varias for
 Si seguiste los pasos al correrlo se vera algo parecido a lo de la imagen: <br>
 [![superscan.png](https://i.postimg.cc/dty2XxLH/superscan.png)](https://postimg.cc/4mXHHwvV)
 <br>
+
 ### Encoding & Decoding
 
 ---
@@ -85,6 +87,7 @@ if __name__ == '__main__':
 ```
 Para desencriptar la imagen podemos usar `decoding_uanl.py` ingresas la url que te arroja en el programa anterior y te la regresara desencriptada,en caso que quieras saber una frase encriptada en base 64  puedes utilizar `encode_text.py`  que te pide una frase y te la regresara en base64
 <br>
+
 ### Webscraping
 
 ---
@@ -93,6 +96,7 @@ Si lo que buscas es hacer webscapping  aqui esta tu opcion ya que se cuentan con
 [![powershell-scrap.png](https://i.postimg.cc/ZK42RxGQ/powershell-scrap.png)](https://postimg.cc/NLCpCmf8)
 </center>
 <br>
+
 ### Nmap
 
 ---
@@ -103,6 +107,7 @@ Para este script necesitamos tener una terminal de linux, como vimos anteriormen
 Despues de seleccionar una opción se guardara en un archivo 
 `resultados(opcion seleccionada).txt`  una vez que termine la ejecucion tendremos que ver el contenido del archivo donde guarda los resultados dependiendo de la opción como se puede ver en el ejemplo.
 <br>
+
 ### FTP
 
 ---
